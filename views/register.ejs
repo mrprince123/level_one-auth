@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+<div class="app">
+
+
+    <div class="main">
+        <h1>Register</h1>
+        <h3>Don't Keep your secrets, share them anonymously.</h3>
+
+
+        <form action="/register" method="POST">
+
+            <!-- <label for="name">Name</label>
+            <input type="name" name="name"> -->
+
+            <label for="email">Email</label>
+            <input type="email" name="username">
+
+            <label for="password">Password</label>
+            <input type="password" name="password">
+
+            <button type="submit">Register</button>
+        </form>
+
+    </div>
+</div>
+
+    <%- include('partials/footer') %>
